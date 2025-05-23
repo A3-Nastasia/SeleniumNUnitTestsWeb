@@ -4,10 +4,8 @@
 **Enviroment**: Linux Ubuntu 22.04 Desktop. C# .NET 9.0 SDK \
 **Postcondition**: None \
 **Steps**:
-1. Open browser
-2. Go to site `https://www.google.com/`
-3. Check that there is a title "Google"
-4. Close browser
+1. Go to site `https://www.google.com/`
+2. Check that there is a title "Google"
 
 **Expecting result**: Title is "Google" \
 **Status**: Success
@@ -20,14 +18,12 @@
 **Enviroment**: Linux Ubuntu 22.04 Desktop. C# .NET 9.0 SDK \
 **Postcondition**: None \
 **Steps**:
-1. Open browser
-2. Go to site `https://hh.ru/`
-3. Input vacancy name ("programmer")
-4. Press `Enter`
-5. Click on button with filter icon
-6. Select `No experience`, `Remote work`
-7. Click button "Search"
-8. Close browser 
+1. Go to site `https://hh.ru/`
+2. Input vacancy name ("programmer")
+3. Press `Enter`
+4. Click on button with filter icon
+5. Select `No experience`, `Remote work`
+6. Click button "Search"
 
 **Expecting result**: List of vacancies with applied filters \
 **Status**: Success
