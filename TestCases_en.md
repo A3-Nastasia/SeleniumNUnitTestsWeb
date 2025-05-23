@@ -25,5 +25,5 @@
 5. Select `No experience`, `Remote work`
 6. Click button "Search"
 
-**Expecting result**: List of vacancies with applied filters \
+**Expecting result**: List of vacancies, in filters items `No experience` and `Remote work` are selected \
 **Status**: Success
