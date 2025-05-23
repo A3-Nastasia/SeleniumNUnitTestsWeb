@@ -93,12 +93,12 @@ namespace SeleniumTasks{
             
 
 
-            webElement = FindHiddenInput(webElement, By.CssSelector("input[value='noExperience']"), By.CssSelector("input.magritte-radio-input-checked___eYMcP_3-0-49[value='noExperience']"));
+            webElement = FindHiddenInput(webElement, By.CssSelector("input[value='noExperience']"), By.CssSelector("[data-qa='radio-container'] input[value='noExperience']"));
             string workExperience = webElement.GetAttribute("value");
             bool isExperienceChecked = webElement.GetAttribute("checked") != null;
 
 
-            webElement = FindHiddenInput(webElement, By.CssSelector("input[value='REMOTE']"), By.CssSelector("input.magritte-checkbox-input___Y41Ta_3-0-49[value='REMOTE']"));
+            webElement = FindHiddenInput(webElement, By.CssSelector("input[value='REMOTE']"), By.CssSelector("[data-qa='checkbox-container'] input[value='REMOTE']"));
             string workFormat = webElement.GetAttribute("value");
             bool isFormatChecked = webElement.GetAttribute("checked") != null;
 
